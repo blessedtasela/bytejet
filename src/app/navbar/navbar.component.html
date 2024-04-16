@@ -1,0 +1,86 @@
+<nav class="p-2 px-4 bg-white shadow-lg rounded-b-lg flex fixed w-full justify-center justify-between md:justify-center 
+  text-md text-gray-900">
+    <div class="font-sans flex cursor-pointer p-2 mx-4 gap-4">
+        <img style="width: 50px;" class="rounded-full" src="../assets/blessed-2.jpeg">
+        <img style="width: 50px;" class="rounded-full" src="../assets/joel-1.jpeg">
+        <div class="mx-auto">
+            <div class="flex items-center justify-center font-bold text-xl md:text-2xl">
+                ByteJet
+            </div>
+            <div class="flex items-center justify-center text-sm md:text-md">
+                Blessed & Joel
+            </div>
+        </div>
+    </div>
+    <div class="flex items-center justify-end flex-1 mr-16 font-bold">
+        <div class="hidden md:block">
+            <ul class="p-4 flex items-center gap-6 lg:gap-12 font-sans uppercase">
+                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                    <a href="/#home" (click)="scrollToComponent('home')">
+                        Home
+                    </a>
+                </li>
+                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                    <a href="/#about" (click)="scrollToComponent('about')">
+                        About
+                    </a>
+                </li>
+                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                    <a href="/#contact" (click)="scrollToComponent('contact')">
+                        Contact
+                    </a>
+                </li>
+                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                    <a href="/#projects" (click)="scrollToComponent('projects')">
+                        Projects
+                    </a>
+                </li>
+                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                    <a href="/#services" (click)="scrollToComponent('services')">
+                        Services
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div *ngIf="!menuOpen" class="md:hidden p-2">
+        <i-feather name="align-justify" (click)="toggleMenu()" class="text-lemon-blue  p-2 cursor-pointer md:hidden"
+            style="width: 40px;"></i-feather>
+    </div>
+    <div *ngIf="menuOpen" class="md:hidden p-2 z-10">
+        <i-feather name="x" (click)="toggleMenu()" class=" text-lemon-blue p-2 cursor-pointer md:hidden"
+            style="width: 40px;"></i-feather>
+    </div>
+    <div class=" md:hidden block h-full w-full bg-white text-dark-blue transform duration-400 
+  ease-in-out transition-opacity fixed" [ngClass]="{'hidden': !menuOpen}">
+        <div class="flex flex-col items-center justify-center gap-8 text-xl mt-4">
+            <ul class="p-4 flex-cols items-center justify-center gap-4 space-y-12 font-mono mt-10 gap-16">
+                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                    <a href="/#home" (click)="scrollToComponent('home')">
+                        Home
+                    </a>
+                </li>
+                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                    <a href="/#about" (click)="scrollToComponent('about')">
+                        About
+                    </a>
+                </li>
+                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                    <a href="/#contact" (click)="scrollToComponent('contact')">
+                        Contact
+                    </a>
+                </li>
+                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                    <a href="/#projects" (click)="scrollToComponent('projects')">
+                        Projects
+                    </a>
+                </li>
+                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                    <a href="/#services" (click)="scrollToComponent('services')">
+                        Services
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

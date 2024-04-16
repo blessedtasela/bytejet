@@ -1,0 +1,59 @@
+<div class="px-8 md:px-16 font-mono text-gray-900 bg-gradient-to-b from-dark-gray via-light-gray to-dark-gray">
+    <div class="py-32 flex-col items-center justify-center p-4">
+        <p class="text-2xl md:text-4xl font-sans text-center mb-4 text-gray-900 font-bold">
+            About Us
+        </p>
+        <p class="mt-4 w-12 mx-auto border-2 p-1 bg-lemon-blue rounded-lg border-lemon-blue"></p>
+        <p class="p-4 px-16 md:px-32 mt-4 text-center text-sm md:text-xl">
+            Here you will find more information about us, what we do, and our top skills mostly in terms of programming
+            and technology
+        </p>
+    </div>
+    <div class="flex items-start justify-center grid grid-cols md:grid-cols-2">
+        <div class="text-sm md:text-md p-2 text-justify">
+            <div class="text-justify p-2 text-2xl md:4xl font-bold">
+                Get to know us!
+            </div>
+            <div class="p-2 text-gray-800 text-sm md:text-md">
+                <p class="py-2 md:py-4">
+                    With over <span class="font-bold">10 years of combined experience</span> in <span
+                        class="font-bold">mobile</span> and <span class="font-bold">web development</span>, including
+                    <span class="font-bold">frontend</span> and
+                    <span class="font-bold">backend expertise</span>, Blessed Tasela and Joel Wabo are seasoned <span
+                        class="font-bold">full-stack developers</span>. Specializing in both <span
+                        class="font-bold">mobile</span> and <span class="font-bold">web
+                        development</span>, they excel in building and managing the <span
+                        class="font-bold">frontend</span> and <span class="font-bold">backend components</span> of
+                    websites and applications to ensure
+                    overall product success. Explore our projects to see some of our work.
+                </p>
+                <p class="py-2 md:py-4">
+                    We also enjoy sharing insights and knowledge gained from years of experience in <span
+                        class="font-bold">web development</span> with
+                    the Dev Community. Connect with us on<a href="/" class="font-bold text-lemon-blue"> LinkedIn </a>
+                    and <a href="/" class="font-bold text-lemon-blue"> Instagram </a>for useful content related to <span
+                        class="font-bold">web
+                        development</span> and <span class="font-bold">programming</span>.
+                </p>
+                <p class="py-2 md:py-4">
+                    We're open to <span class="font-bold">job opportunities</span> where we can contribute, learn, and
+                    grow. If you have an opportunity
+                    that matches our skills and experience, feel free to reach out to us.
+                </p>
+            </div>
+        </div>
+        <div class="text-sm md:text-md p-2 text-justify">
+            <div class="text-justify p-2 text-2xl md:4xl font-bold">
+                Top Skills
+            </div>
+            <div class="p-2 grid grid-cols-2 md:grid-cols-4">
+                <div class="p-4 text-sm md:text-md" *ngFor="let skill of skills">
+                    <div
+                        class="text-center p-1 px-2 w-30 border-2 bg-bold-gray border-bold-gray text-gray-500 font-bold font-sans rounded-md cursor-pointer">
+                        {{ skill.skill }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
