@@ -8,7 +8,7 @@ add the content to the tailwind.conf.js file
   ],
 
 add the configuration to style.css
-  @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 

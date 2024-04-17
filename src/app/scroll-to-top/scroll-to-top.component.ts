@@ -17,7 +17,7 @@ export class ScrollToTopComponent {
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
-    this.showScroll = window.scrollY > 1200;
+    this.showScroll = window.scrollY > 1400;
   }
 
   scrollToTop() {
