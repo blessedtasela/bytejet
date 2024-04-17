@@ -1,13 +1,13 @@
-<nav class="p-2 px-4 bg-white shadow-lg rounded-b-lg flex fixed w-full justify-center justify-between md:justify-center 
+<nav class="p-0 md:p-2 bg-white shadow-lg rounded-b-lg flex fixed w-full justify-center justify-between md:justify-center 
   text-md text-gray-900">
-    <div class="font-sans flex cursor-pointer p-2 mx-4 gap-4">
-        <img style="width: 50px;" class="rounded-full" src="../assets/blessed-2.jpeg">
-        <img style="width: 50px;" class="rounded-full" src="../assets/joel-1.jpeg">
+    <div class="font-sans flex items-center justify-start cursor-pointer p-2 mx-4 gap-4">
+        <img class="rounded-full w-12" src="../assets/blessed-2.jpeg">
+        <img class="rounded-full w-12" src="../assets/joel-1.jpeg">
         <div class="mx-auto">
-            <div class="flex items-center justify-center font-bold text-xl md:text-2xl">
+            <div class=" text-center font-bold text-xl md:text-2xl">
                 ByteJet
             </div>
-            <div class="flex items-center justify-center text-sm md:text-md">
+            <div class=" text-center text-sm md:text-md whitespace-no-wrap">
                 Blessed & Joel
             </div>
         </div>
@@ -51,9 +51,9 @@
         <i-feather name="x" (click)="toggleMenu()" class=" text-lemon-blue p-2 cursor-pointer md:hidden"
             style="width: 40px;"></i-feather>
     </div>
-    <div class=" md:hidden block h-full w-full bg-white text-dark-blue transform duration-400 
+    <div class="block md:hidden h-full w-full bg-white transform duration-400 
   ease-in-out transition-opacity fixed" [ngClass]="{'hidden': !menuOpen}">
-        <div class="flex flex-col items-center justify-center gap-8 text-xl mt-4">
+        <div class="flex items-center justify-center gap-8 text-xl mt-4">
             <ul class="p-4 flex-cols items-center justify-center gap-4 space-y-12 font-mono mt-10 gap-16">
                 <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
                     <a href="/#home" (click)="scrollToComponent('home')">
