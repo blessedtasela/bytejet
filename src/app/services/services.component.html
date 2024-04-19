@@ -1,1 +1,46 @@
-<p>services works!</p>
+<div class="px-4 md:px-16 font-mono text-gray-900 bg-gradient-to-b from-dark-gray via-light-gray to-dark-gray">
+    <div class="py-32 flex-col items-center justify-center p-4">
+        <p class="text-2xl md:text-4xl font-sans text-center mb-4 text-gray-900 font-bold">
+            How We Can Help You
+        </p>
+        <p class="mt-4 w-12 mx-auto border-2 p-1 bg-lemon-blue rounded-lg border-lemon-blue"></p>
+        <div class="grid grid-cols md:grid-cols-2 gap-4 md:gap-12 justify-center items-center">
+            <div class="p-16 md:p-32">
+                <div class="flex items-center justify-center p-8">
+                    <img src="../../assets/blessed_cartoon-2.png" class="rounded-full object-cover p-2">
+                    <img src="../../assets/joel_cartoon-2.png" class="rounded-full object-cover p-2">
+                </div>
+            </div>
+            <div class="flex-cols justify-center items-center text-sm md:text-lg p-2 md:p-8">
+                <p class="text-gray-700">
+                    At ByteJet, we specialize in providing comprehensive software development solutions that encompass
+                    both mobile and web development, along with a range of related services. Our expertise spans across
+                    crafting dynamic and user-friendly mobile applications, responsive web platforms, and custom
+                    software solutions tailored to meet the unique needs of our clients. In addition to development, we
+                    offer services such as UI/UX design, quality assurance testing, and ongoing maintenance to ensure
+                    that your digital products remain cutting-edge and functional. With a focus on delivering excellence
+                    and innovation, we strive to empower businesses and individuals to thrive in today's digital
+                    landscape
+                </p>
+                <div class="flex items-center justify-center text-center p-2 md:p-8 mt-4 hidden md:block text-md">
+                    <a href="{{ emailLink }}" target="_blank" rel="noopener noreferrer">
+                        <button
+                            class="p-2 py-2 border-2 bg-lemon-blue italic text-white font-bold rounded-md cursor-pointer">
+                            Reach out to us
+                            <i-feather name="mail" class="-mt-1 text-lemon-green" style="width: 30px;"></i-feather>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-2 md:p-8 mt-4 block md:hidden text-sm">
+            <a href="{{ emailLink }}" target="_blank" rel="noopener noreferrer">
+                <button
+                    class="p-2 py-1 border-2 bg-lemon-blue text-white italic font-bold rounded-md cursor-pointer">
+                    <span class="mt-1">Reach out to us</span>
+                    <i-feather name="mail" class="p-1 text-lemon-green" style="width: 32px;"></i-feather>
+                </button>
+            </a>
+        </div>
+    </div>
+</div>

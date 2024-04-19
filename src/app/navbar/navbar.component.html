@@ -54,28 +54,32 @@
     <div class="block md:hidden h-full w-full bg-white transform duration-400 
   ease-in-out transition-opacity fixed" [ngClass]="{'hidden': !menuOpen}">
         <div class="flex items-center justify-center gap-8 text-xl mt-4">
-            <ul class="p-4 flex-cols items-center justify-center gap-4 space-y-12 font-mono mt-10 gap-16">
-                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+            <ul class="p-4 flex-cols items-center justify-center gap-4 space-y-6 font-mono mt-10 gap-8">
+                <li class="text-center cursor-pointer hover:scale-105 hover:text-lemon-blue">
                     <a href="/#home" (click)="scrollToComponent('home')">
                         Home
                     </a>
                 </li>
-                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                <hr>
+                <li class="text-center cursor-pointer hover:scale-105 hover:text-lemon-blue">
                     <a href="/#about" (click)="scrollToComponent('about')">
                         About
                     </a>
                 </li>
-                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                <hr>
+                <li class="text-center cursor-pointer hover:scale-105 hover:text-lemon-blue">
                     <a href="/#contact" (click)="scrollToComponent('contact')">
                         Contact
                     </a>
                 </li>
-                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                <hr>
+                <li class="text-center cursor-pointer hover:scale-105 hover:text-lemon-blue">
                     <a href="/#projects" (click)="scrollToComponent('projects')">
                         Projects
                     </a>
                 </li>
-                <li class="cursor-pointer hover:scale-105 hover:text-lemon-blue">
+                <hr>
+                <li class="text-center cursor-pointer hover:scale-105 hover:text-lemon-blue">
                     <a href="/#services" (click)="scrollToComponent('services')">
                         Services
                     </a>
