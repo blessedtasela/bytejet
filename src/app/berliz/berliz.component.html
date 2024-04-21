@@ -6,7 +6,7 @@
         <p class="mt-4 w-12 mx-auto border-2 p-1 bg-lemon-blue rounded-lg border-lemon-blue"></p>
         <div class="flex items-center justify-center mt-4 font-mono">
             <div class="grid grid-cols md:grid-cols-2 items-center">
-                <div class="p-4 md:p-12">
+                <div class="p-4">
                     <img src="../../assets/berliz-lg.png" class="object-fit rounded-md">
                 </div>
                 <div class="text-sm md:text-md p-2 text-justify">
@@ -14,24 +14,26 @@
                         Revolutionizing Fitness: The Berliz Platform
                     </div>
                     <p class="p-2 mt-4">
-                        Berliz epitomizes my dedication to web development, serving as a dynamic platform aimed at
-                        assisting
-                        users in achieving their fitness objectives. Designed to connect trainers, clients, and gym
-                        centers,
-                        Berliz fosters a collaborative fitness community with innovative features. Developed using
-                        Angular
-                        and Spring Boot, Berliz boasts a sophisticated user interface and seamless functionality,
-                        showcasing
-                        meticulous attention to detail for an exceptional user experience. Representing the culmination
-                        of
-                        my front-end and back-end expertise, Berliz continues to evolve with ongoing enhancements,
-                        solidifying its status as a transformative force in the fitness industry.
+                        Berliz is the embodiment of my commitment to web development, offering a dynamic platform
+                        tailored to assist users in reaching their fitness goals. Designed to unite trainers, clients,
+                        and gym centers, Berliz fosters a collaborative fitness community with innovative features.
+                        Utilizing Angular and Spring Boot, Berliz delivers a sophisticated user interface and seamless
+                        functionality, reflecting meticulous attention to detail for an exceptional user experience.
+                        Representing the convergence of my front-end and back-end expertise, Berliz evolves continuously
+                        with ongoing enhancements, solidifying its position as a transformative presence in the fitness
+                        industry.
                     </p>
+                    <div class="p-2 grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div *ngFor="let skill of skills"
+                            class="text-center p-1 px-2 w-30 border-2 bg-bold-gray border-bold-gray text-gray-500 font-bold font-sans rounded-md cursor-pointer">
+                            {{ skill.skill }}
+                        </div>
+                    </div>
                     <div class="flex justify-center p-2">
                         <button
                             class="p-2 py-2 border-2 border-lemon-green bg-lemon-blue text-white font-sans rounded-md cursor-pointer">
                             <a [routerLink]="['/berliz']">
-                                Overwiew
+                                View Live
                             </a>
                         </button>
                     </div>

@@ -46,16 +46,24 @@
                     that matches our skills and experience, feel free to reach out to us.
                 </p>
             </div>
+            <div class="flex items-center justify-center p-4">
+                <img src="../../assets/blessed-1.jpeg" class="object-fit rounded-lg">
+            </div>
         </div>
         <div class="text-sm md:text-md p-2 text-justify">
             <div class="text-justify p-2 text-2xl md:4xl font-bold">
                 Top Skills
             </div>
-            <div class="p-2 grid grid-cols-2 md:grid-cols-4">
-                <div class="p-4 text-sm md:text-md" *ngFor="let skill of skills">
-                    <div
-                        class="text-center p-1 px-2 w-30 border-2 bg-bold-gray border-bold-gray text-gray-500 font-bold font-sans rounded-md cursor-pointer">
-                        {{ skill.skill }}
+            <div class="flex-cols items-start ">
+                <div class="p-4 text-sm md:text-md" *ngFor="let pg of skills">
+                    <div class="text-center font-bold font-sans italic text-gray-700 text-md">
+                        {{ pg.stack}}
+                    </div>
+                    <div class="p-2 grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div *ngFor="let skill of pg.skills"
+                            class="text-center p-1 px-2 w-30 border-2 bg-bold-gray border-bold-gray text-gray-500 font-bold font-sans rounded-md cursor-pointer">
+                            {{ skill.skill }}
+                        </div>
                     </div>
                 </div>
             </div>

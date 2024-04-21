@@ -21,6 +21,12 @@ export class ContactComponent {
       'icon': 'mail'
     },
     {
+      'id': 2,
+      'url': 'https://www.fiverr.com/bytejet',
+      'message': 'Fiverr',
+      'icon': 'link'
+    },
+    {
       'id': 3,
       'url': 'https://www.linkedin.com/in/joel-wabo-a78790162/',
       'message': 'Linkedin',
@@ -31,6 +37,12 @@ export class ContactComponent {
       'url': 'https://github.com/blessedtasela',
       'message': 'github',
       'icon': 'github'
+    },
+    {
+      'id': 5,
+      'url': 'https://www.upwork.com/freelancers/~014c9b44aa31dce5e0',
+      'message': 'Upwork',
+      'icon': 'link-2'
     },
     {
       'id': 6,
