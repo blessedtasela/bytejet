@@ -6,7 +6,7 @@
         <p class="mt-4 w-12 mx-auto border-2 p-1 bg-lemon-blue rounded-lg border-lemon-blue"></p>
         <div class="flex items-center justify-center mt-4 font-mono">
             <div class="grid grid-cols md:grid-cols-2 items-center">
-                <div class="p-4 md:p-12">
+                <div class="p-4">
                     <img src="../../assets/youtube-clone.png" class="object-fit rounded-md">
                 </div>
                 <div class="text-sm md:text-md p-2 text-justify">
@@ -27,6 +27,12 @@
                         user interaction design and scalable web application development, highlighting my commitment to
                         innovation in web technology.
                     </p>
+                    <div class="p-2 grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div *ngFor="let skill of skills"
+                            class="text-center p-1 px-2 w-30 border-2 bg-bold-gray border-bold-gray text-gray-500 font-bold font-sans rounded-md cursor-pointer">
+                            {{ skill.skill }}
+                        </div>
+                    </div>
                     <div class="flex justify-center p-2">
                         <button
                             class="p-2 py-2 border-2 border-lemon-green bg-lemon-blue text-white font-sans rounded-md cursor-pointer">

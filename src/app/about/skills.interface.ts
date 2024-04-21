@@ -110,7 +110,8 @@ export class TechSkills {
                     { 'id': 7, 'skill': 'Jira' },
                     { 'id': 8, 'skill': 'Scrum' },
                     { 'id': 9, 'skill': 'web socket' },
-                    { 'id': 10, 'skill': 'Json' }
+                    { 'id': 10, 'skill': 'Json' },
+                    { 'id': 11, 'skill': 'Netlify' }
                 ]
             }
         ];
