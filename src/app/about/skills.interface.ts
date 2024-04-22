@@ -40,7 +40,6 @@ export class TechSkills {
                 'skills': [
                     { 'id': 1, 'skill': 'Java' },
                     { 'id': 2, 'skill': 'SpringBoot' },
-                    { 'id': 3, 'skill': 'NodeJS' },
                     { 'id': 4, 'skill': 'NestJS' },
                     { 'id': 5, 'skill': 'JavaScript' },
                     { 'id': 6, 'skill': 'Dart' },
@@ -69,23 +68,8 @@ export class TechSkills {
                     { 'id': 4, 'skill': 'Arduino' },
                     { 'id': 5, 'skill': 'VHDL' },
                     { 'id': 6, 'skill': 'uVision' },
-                    { 'id': 7, 'skill': 'OpenGL' },
                     { 'id': 8, 'skill': 'SDL' },
-                    { 'id': 9, 'skill': 'Qt' },
                     { 'id': 10, 'skill': 'OpenCV' }
-                ]
-            },
-            {
-                'id': 5,
-                'stack': 'IDE',
-                'skills': [
-                    { 'id': 1, 'skill': 'Eclipse' },
-                    { 'id': 2, 'skill': 'IntelliJ' },
-                    { 'id': 3, 'skill': 'Codesys' },
-                    { 'id': 4, 'skill': 'VSCode' },
-                    { 'id': 5, 'skill': 'VS Studio' },
-                    { 'id': 6, 'skill': 'Android' },
-                    { 'id': 7, 'skill': 'Xcode' }
                 ]
             },
             {
@@ -102,16 +86,9 @@ export class TechSkills {
                 'stack': 'Others',
                 'skills': [
                     { 'id': 1, 'skill': 'Github' },
-                    { 'id': 2, 'skill': 'Gitlab' },
-                    { 'id': 3, 'skill': 'SVN' },
+                    { 'id': 2, 'skill': 'PMP' },
                     { 'id': 4, 'skill': 'CI/CD' },
-                    { 'id': 5, 'skill': 'Pipeline' },
                     { 'id': 6, 'skill': 'AWS' },
-                    { 'id': 7, 'skill': 'Jira' },
-                    { 'id': 8, 'skill': 'Scrum' },
-                    { 'id': 9, 'skill': 'web socket' },
-                    { 'id': 10, 'skill': 'Json' },
-                    { 'id': 11, 'skill': 'Netlify' }
                 ]
             }
         ];
