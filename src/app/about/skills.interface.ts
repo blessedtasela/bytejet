@@ -87,7 +87,9 @@ export class TechSkills {
                 'skills': [
                     { 'id': 1, 'skill': 'Github' },
                     { 'id': 2, 'skill': 'PMP' },
+                    { 'id': 3, 'skill': 'Docker' },
                     { 'id': 4, 'skill': 'CI/CD' },
+                    { 'id': 5, 'skill': 'Kubernetes' },
                     { 'id': 6, 'skill': 'AWS' },
                 ]
             }

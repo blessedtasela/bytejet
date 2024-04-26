@@ -40,7 +40,7 @@ export class ContactComponent {
     },
     {
       'id': 5,
-      'url': 'https://www.upwork.com/freelancers/~014c9b44aa31dce5e0',
+      'url': 'https://www.upwork.com/freelancers/~01e7163389240b9cd7',
       'message': 'Upwork',
       'icon': 'link-2'
     },
